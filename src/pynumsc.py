@@ -53,8 +53,8 @@ def cli():
             exit(1)
         
         for i, c in enumerate(args.num[::-1]):
-            if c in hex_letters:
-                digit = hex_letters.index(c) + 10
+            if c.upper() in hex_letters:
+                digit = hex_letters.index(c.upper()) + 10
             else:
                 digit = int(c)
             decimal_num += base**i * digit

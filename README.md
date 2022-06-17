@@ -18,7 +18,8 @@ $ python3 pynumsc.py bin dec 10011
 $ python3 pynumsc.py octal decimal 17
 15
 
-$ python pynumsc.py -h
+# show help message
+$ python3 pynumsc.py -h
 usage: pynumsc.py [-h] source target num
 
 A Simple Command Line Number System Converter
